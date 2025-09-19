@@ -1,5 +1,4 @@
 import math as m
-imort sys
 ''' n = int(input("Enter n: ")) '''
 
 ''' lsi = input("Enter space separated row: ").strip().split() '''
@@ -18,11 +17,20 @@ for i in range (1,n+1):
 ''' rev_num = int(str(num)[::-1]) '''
 
 '''
+ def print_fibonacci(n):
+     a, b = 0, 1
+     for _ in range(n):
+         print(a, end=' ')
+         a, b = b, a + b
+    print() 
+'''
+
+'''
 def gcd(a,b):
     while b:
         a,b = b,a%b
     return a
 
     def lcm(a,b):
-        return (a*b)//gcd(a,b)
+        return (a*b) // gcd(a,b)
 '''
